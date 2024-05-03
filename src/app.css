@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --clr-gradient-1: 243 249 252;
+        --clr-gradient-2: 219 200 250;
+        --clr-gradient-3: 150 179 249;
+        --clr-logo-bing: 80 80 80;
+    }
+
+    @font-face {
+        font-family: 'Segoe';
+        font-style: normal;
+        font-weight: bold;
+        font-display: swap;
+        src: url(./fonts/SegoeUI.woff2) format('woff2');
+    }
+}
+
+@layer utilities {
+    .holder-logo-bing {
+        padding: 3.75rem 5.31rem 2.25rem 5rem;
+    }
+    .size-logo-bing {
+        height: 8.75rem;
+        width: 7.81rem;
+    }
+}
